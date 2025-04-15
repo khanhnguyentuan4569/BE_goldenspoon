@@ -6,7 +6,7 @@ getProductsId,addpro,editpro,deletepro, } = require('../controllers/productContr
 const{verifyToken,verifyAdmin}=require('../controllers/userController');
 
 // lay tat ca danh muc
-router.get('/', getAllproducts);
+router.get('api/products', getAllproducts);
 
 // lay chi tiet 1 danh muc]
 router.get('/:id', getProductsId);
