@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-mongoose.connect('mongodb://127.0.0.1:27017/DB_KNLV')
+mongoose.connect('mongodb+srv://root:vu1234567890@knlv.balmqex.mongodb.net/?retryWrites=true&w=majority&appName=KNLV')
   .then(() => console.log('Connected to MongoDB successfully!'))
   .catch(err => console.error('Failed to connect to MongoDB:', err));
 
